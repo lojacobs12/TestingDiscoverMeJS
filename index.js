@@ -1,7 +1,7 @@
 import { Project } from "https://unpkg.com/leopard@^1/dist/index.esm.js";
 
-import Stage from "../lx735/Stage.js";
-import Cat from "../Cat/Cat.js";
+import Stage from "./Stage/Stage.js";
+import Cat from "./Cat/Cat.js";
 
 const stage = new Stage({ costumeNumber: 2 });
 
